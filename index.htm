@@ -10,6 +10,28 @@
     <title>| мσσηTown. 🔥</title>
     <link rel="icon" href="./favicon.gif" type="gif">
 
+    <style>
+      #con{
+        animation: color-changee 1s infinite;
+        }
+        @keyframes color-changee {
+          0% { color: white; }
+          25% { color: purple; }
+          50% { color: yellow; }
+          75% { color: hotpink; }
+          100% { color: white; }
+        }
+      #a{
+        animation: backcolor-changee 1s infinite;
+        }
+        @keyframes backcolor-changee {
+          0% { color: white; }
+          50% { color: black; }
+          100% { color: white; }
+        }
+
+    </style>
+
 </head>
 
 <body style="background-color: rgb(39, 96, 110);">
@@ -24,22 +46,28 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#welcome">Welcome <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="con" href="#welcome">Welcome <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#discord">Discord <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="con" href="#discord">Discord <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#about">About Us</a>
+                    <a class="nav-link" id="con" href="#about">About Us</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#rules">Rules</a>
+                    <a class="nav-link" id="con" href="#rules">Rules</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#roles">Roles</a>
+                    <a class="nav-link" id="con" href="#roles">Roles</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#up&an">Announcements||Updates||Social Links</a>
+                    <a class="nav-link" id="con" href="#announcements">Announcements</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" id="con" href="#updates">Updates</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" id="con" href="#links">Links</a>
                 </li>
             </ul>
         </div>
@@ -53,8 +81,7 @@
 
 
             <br>
-            <p class="lead">Click here for the Server: <a href="https://discord.gg/Jqt65y74Pw " class="btn btn-dark active " role="button " aria-pressed="true ">| мσσηTown. 🔥</a><br><span style="font-weight: bolder; ">(Server is currently under Construction: You might face problem in the
-                    Site and Server !)</span></p>
+            <p class="lead">Click here for the Server: <a href="https://discord.gg/FPmX2rruNF" class="btn btn-dark active " role="button " aria-pressed="true ">| мσσηTown. 🔥</a><br></p>
             <hr class="my-4 ">
         </div>
         <br>
@@ -71,11 +98,11 @@
 
         <br>
 
+        <h3 id="con">About Us</h3>
         <div style="padding:1%; ">
             <div class="row no-gutters bg-warning position-relative" style="border-radius: 10px; ">
-                <div class=position-static p-4 pl-md-0 ">
+                <div class=position-static p-4 pl-md-0 >
         <span style=" padding: 3%; ">
-                        <h5>About Us</h5>
                         <p>We are one of the friendly communities in Discord. Here in this server you'll find plenty
                             of
                             other members with whom you can socialize and make friends. Members here are mostly
@@ -96,37 +123,13 @@
         </div>
 
         <br>
+        <h2 id="con">Rules</h2>
+        <widgetbot server="812220236693766164" channel="812220236693766168" width=" 100% "
+            height=" 600 ">
+            <span style=" font-weight: bold;color:  rgb(0, 255, 242); "></span>
+        </widgetbot>
 
-        <div style=" padding:1%; ">
-            <div class=" row no-gutters bg-success position-relative " style=" border-radius: 10px; ">
-                <div class=position-static p-4 pl-md-0 ">
-                    <span style="padding: 3%; ">
-                        <h5>Rules</h5>
-                        <p>
-                            ☆ No blank nicknames. <br>
-                            ☆ No inappropriate nicknames.<br>
-                            ☆ No sexually explicit nicknames.<br>
-                            ☆ No offensive nicknames.<br>
-                            ☆ No nicknames with unusual or unreadable Unicode.<br>
-                            ☆ No blank profile pictures.<br>
-                            ☆ No inappropriate profile pictures.<br>
-                            ☆ No sexually explicit profile pictures.<br>
-                            ☆ No offensive profile pictures.<br>
-                            ☆ No membership granted to minors (under 15 years).<br>
-                            ☆ Moderators reserve the right to change nicknames.<br>
-                            ☆ Moderators reserve the right to use their own discretion regardless of any rule.<br>
-                            ☆ No exploiting loopholes in the rules (please report them).<br>
-                            ☆ No DMing other members of the server.<br>
-                            ☆ Rules apply to DMing other members of the server.<br>
-                            ☆ No inviting unofficial bots.<br>
-                            ☆ No bugs, exploits, glitches, hacks, bugs, etc.
-                        </p>
-                    </span>
-                </div>
-            </div>
-        </div>
-
-        <br>
+        <br><br>
 
         <div class="progress " id="roles">
             <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger " role="progressbar " aria-valuenow="100 " aria-valuemin="0 " aria-valuemax="100 " style="width: 100% "></div>
@@ -134,32 +137,43 @@
 
         <br>
 
-        <div style="padding:1%; ">
-            <div class="row no-gutters badge-info position-relative" style="border-radius: 10px; ">
-                <div class=position-static p-4 pl-md-0 ">
-                    <span style=" padding: 3%; ">
-                        <h5>Roles Information</h5>
-                        <p style="font-weight:bolder; text-align:centre">We'll get it to you when information is available !</p>
-                    </span>
-                </div>
-            </div>
+        <h2 id="con">Roles</h2>
+        <widgetbot server="812220236693766164" channel="834638656824148028" width=" 100% "
+            height=" 600 ">
+            <span style=" font-weight: bold;color:  rgb(0, 255, 242); "></span>
+        </widgetbot>
+        <br><br>
+
+        <div class=" progress " id="announcements">
+            <div class=" progress-bar progress-bar-striped progress-bar-animated bg-success " role=" progressbar " aria-valuenow=" 100 " aria-valuemin=" 0 " aria-valuemax=" 100 " style=" width: 100% "></div>
         </div>
 
-        <div class=" progress " id="up&an">
-            <div class=" progress-bar progress-bar-striped progress-bar-animated bg-warning " role=" progressbar " aria-valuenow=" 100 " aria-valuemin=" 0 " aria-valuemax=" 100 " style=" width: 100% "></div>
-        </div><br>
-
+        <br>
+        <h2 id="con">Server Announcements</h2>
         <widgetbot server="812220236693766164" channel="834640248624906240" width=" 100% " height=" 600 "><span
-                        style=" font-weight: bold;color: chartreuse; ">Server Announcement</span></widgetbot>
+                        style=" font-weight: bold;color: chartreuse; "></span></widgetbot>
                     <br><br>
+                    <div class=" progress " id="updates">
+                        <div class=" progress-bar progress-bar-striped progress-bar-animated bg-warning " role=" progressbar " aria-valuenow=" 100 " aria-valuemin=" 0 " aria-valuemax=" 100 " style=" width: 100% "></div>
+                    </div>
+
+                    <br>
+                    <h2 id="con">Server Updates</h2>
+
                     <widgetbot server="812220236693766164" channel="834638869135229008" width=" 100% "
                         height=" 600 ">
-                        <span style=" font-weight: bold;color: rgb(238, 255, 0); ">Server Updates</span>
+                        <span style=" font-weight: bold;color: rgb(238, 255, 0); "></span>
                     </widgetbot>
                     <br><br>
+                    <div class=" progress " id="links">
+                        <div class=" progress-bar progress-bar-striped progress-bar-animated bg-danger " role=" progressbar " aria-valuenow=" 100 " aria-valuemin=" 0 " aria-valuemax=" 100 " style=" width: 100% "></div>
+                    </div>
+
+                    <br>
+                    <h2 id="con">Social Links</h2>
                     <widgetbot server="812220236693766164" channel="834441895073284127" width=" 100% "
                         height=" 600 ">
-                        <span style=" font-weight: bold;color:  rgb(0, 255, 242); ">Social Links</span>
+                        <span style=" font-weight: bold;color:  rgb(0, 255, 242); "></span>
                     </widgetbot>
 
                     <br><br>
