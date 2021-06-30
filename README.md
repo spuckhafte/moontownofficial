@@ -1,3 +1,3 @@
 # moontownofficial
-Official website for a discord server: | мσσηℓιgнт. 🔥
-Created by one of its members: | мσση🔥 〢spuckhafte_ferwirklung
+Official website for a discord server: | мσσηTown
+Created by one of its members: spuckhafte_ferwirklung
